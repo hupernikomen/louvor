@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+
+}
+.containerModal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000d2;
+}
+.modal{
+    z-index: 9999;
+    padding: 15px;
+    background: #fff;
+    width: 250px;
+    height: 80vh;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.modal h3{
+    margin-bottom: 20px;
+}
+
+.btn_membro {
+    border: none;
+    padding: 10px;
+    margin-bottom: 6px;
+    box-shadow: 0px 0px 3px #00000050;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 21px;
+    box-shadow: 1px 1px 5px #33333320;
+    position: sticky;
+    top: 0;
+    background:#fff;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+header span {
+    font-weight: 300;
+
+}
+
+main {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.ref {
+    margin-right: 21px;
+    margin-bottom: 5px;
+}
+.ref div{
+    display: flex;
+
+}
+
+.data{
+    margin-right: 15px;
+}
+
+.data::after{
+    content: "-";
+    margin-left: 15px;
+}
+
+
+.vocais {
+    display: flex;
+}
+
+.louvores {
+    display: flex;
+}
+.louvores div{
+    font-weight: 400 !important;
+}
+.louvores div > span, .instrumentos div> span, .vocais div>span {
+    padding: 0 5px;
+    
+}
+
+.instrumentos {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.containerItem {
+    padding: 20px 0;
+    margin-bottom: 1px;
+}
+
+.ebd {
+    border-left: 6px solid rgba(39, 128, 179, 0.39);
+    padding-left: 15px;
+}
+
+.doutrina {
+    border-left: 6px solid rgba(230, 215, 11, 0.425);
+    padding-left: 15px;
+}
+.louvorepregacao {
+    border-left: 6px solid rgba(216, 77, 77, 0.507);
+    padding-left: 15px;
+}
+
+.extra {
+    color: rgb(148, 148, 148);
+    margin-left: 15px;
+}
