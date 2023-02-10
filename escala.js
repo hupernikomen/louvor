@@ -16,7 +16,7 @@ _membro == null ? containerModal.style.display = "flex" : containerModal.style.d
 
 const escala = [
     {
-        "data": "10/02",
+        "data": "8/02",
         "culto": "Doutrina",
         "louvores": ["Renova-me", "Digno de Glória"],
         "louvor_extra": "Ao único",
@@ -73,7 +73,7 @@ const escala = [
         "louvores": ["Ao único", "Ele é exaltado"],
         "louvor_extra": "Ao único",
         "vocais": ["Edvan", "Lidiane", "Duda"],
-        "instrumentistas": ["Thalyson", "Wesley", "André"]
+        "instrumentistas": ["Thalyson", "Wesley"]
 
     },
     {
@@ -118,18 +118,18 @@ arrBtn.forEach((btn) => {
         const load = document.querySelector('.containerloader')
 
         load.style.display = 'flex'
-        
+
         localStorage.setItem('@membro', btn.innerHTML)
         containerModal.style.display = 'none'
-        
+
         window.location.reload(true);
         MontaEscala()
     })
-    
+
 })
 
 function Limpar() {
-    
+
     localStorage.removeItem("@membro");
     window.location.reload(true);
 }
@@ -194,9 +194,27 @@ function MontaEscala() {
         
         `
 
+        const escalaVencida = `
+    
+        <div class="containerItem vencido">
+            <div class="ref">
+                <div>
+                    <span class="data">${item.data}</span>
+                    <span>${item.culto}</span>
+                </div>
+            </div>
+                
 
+            <span>Louvor Apresentado</span>
+            </div>
+        
+        `
 
-        if (vocal || instrumentista) {
+        const passou = verificaData(item.data)
+
+        if (passou) {
+            main.innerHTML += escalaVencida
+        } else if (vocal || instrumentista) {
             numDias++
             main.innerHTML += escalaItem
         }
@@ -206,6 +224,21 @@ function MontaEscala() {
 
 
     })
+
+
+}
+
+
+function verificaData(data) {
+
+    var dataArr = data.split('/')
+
+    const [dia, mes] = dataArr
+
+    const datanew = new Date(2023, mes - 1, dia)
+
+
+    return new Date(Date.now()).toLocaleDateString() > datanew.toLocaleDateString();
 
 
 }
