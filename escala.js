@@ -2,7 +2,7 @@ const main = document.querySelector('main')
 const header = document.querySelector('header')
 const modal = document.querySelector('.modal')
 const containerModal = document.querySelector('.containerModal')
-header.append("Fevereiro")
+header.append("FEV")
 var numDias = 0
 
 
@@ -11,87 +11,89 @@ const membros = ["Wilson", "Paulinha", "Duda", "Lidiane", "Edvan", "Edmilson", "
 
 const _membro = localStorage.getItem('@membro')
 
+const h1 = document.querySelector("h1").innerHTML=_membro
+
 
 _membro == null ? containerModal.style.display = "flex" : containerModal.style.display = "none"
 
 const escala = [
-    {
-        "data": "8/02",
-        "culto": "Doutrina",
-        "louvores": ["Renova-me", "Digno de Glória"],
-        "louvor_extra": "Ao único",
-        "vocais": ["Edvan", "Duda", "Lais"],
-        "instrumentistas": ["Thalyson", "Wesley"]
 
-    },
     {
         "data": "12/02",
         "culto": "EBD",
+        "preludio":"",
         "louvores": ["Cantor Cristão 545", "Autoridade e Poder"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Paulinha", "Kelviane", "Edvan"],
-        "instrumentistas": ["Thalyson", "Wesley"]
-
+        "vozes": ["Paulinha", "Kelviane", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley"]
+        
     },
     {
         "data": "12/02",
         "culto": "Louvor e Pregação",
+        "preludio":"",
         "louvores": ["Não há Deus maior", "Meu Mestre", "Jó"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Paulinha", "Kelviane", "Edmilson"],
-        "instrumentistas": ["Thalyson", "Wesley"]
+        "vozes": ["Paulinha", "Kelviane", "Edmilson"],
+        "instrumentos": ["Thalyson", "Wesley"]
     },
     {
         "data": "17/02",
         "culto": "Oração",
+        "preludio":"",
         "louvores": ["Cria em Mim", "Alto Preço"],
         "louvor_extra": "Ao único",
-        "vocais": ["Edvan", "Duda", "Lidiane"],
-        "instrumentistas": ["Thalyson", "Wesley"]
-
+        "vozes": ["Edvan", "Duda", "Lidiane"],
+        "instrumentos": ["Thalyson", "Wesley"]
+        
     },
     {
         "data": "19/02",
         "culto": "EBD",
+        "preludio":"",
         "louvores": ["Cantor Cristão 545", "Eu navegarei"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Paulinha", "Laís", "Edvan"],
-        "instrumentistas": ["Thalyson", "Wesley"]
-
+        "vozes": ["Paulinha", "Laís", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley"]
+        
     },
     {
         "data": "19/02",
         "culto": "Louvor e Pregação",
+        "preludio":"",
         "louvores": ["Vem esta é a hora", "Isaías 9", "Rendido Estou"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Edmilson", "Paulinha", "Laís"],
-        "instrumentistas": ["Thalyson", "Wesley"]
+        "vozes": ["Edmilson", "Paulinha", "Laís"],
+        "instrumentos": ["Thalyson", "Wesley"]
     },
     {
         "data": "24/02",
         "culto": "Doutrina",
+        "preludio":"",
         "louvores": ["Ao único", "Ele é exaltado"],
         "louvor_extra": "Ao único",
-        "vocais": ["Edvan", "Lidiane", "Duda"],
-        "instrumentistas": ["Thalyson", "Wesley"]
-
+        "vozes": ["Edvan", "Lidiane", "Duda"],
+        "instrumentos": ["Thalyson", "Wesley"]
+        
     },
     {
         "data": "26/02",
         "culto": "EBD",
+        "preludio":"",
         "louvores": ["Cantor Cristão 545", "Bom estarmos aqui"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Paulinha", "Kelviane", "Edvan"],
-        "instrumentistas": ["Thalyson", "Wesley"]
-
+        "vozes": ["Paulinha", "Kelviane", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley"]
+        
     },
     {
         "data": "26/02",
         "culto": "Louvor e Pregação",
+        "preludio":"",
         "louvores": ["Maranata", "Poder pra salvar", "Em Espírito, Em Verdade", "Alvo mais que a neve", "Porque Ele vive"],
         "louvor_extra": "Todavia me Alegrarei",
-        "vocais": ["Paulinha", "Edmilson", "Lidiane"],
-        "instrumentistas": ["Thalyson", "Wesley"]
+        "vozes": ["Paulinha", "Edmilson", "Lidiane"],
+        "instrumentos": ["Thalyson", "Wesley"]
     },
 ]
 
@@ -105,12 +107,9 @@ membros.map((membro) => {
     button.innerHTML = membro
     modal.append(button)
 
-
-
 })
 
 const arrBtn = document.querySelectorAll('.btn_membro')
-
 
 arrBtn.forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -139,8 +138,8 @@ function MontaEscala() {
 
     escala.map((item) => {
 
-        const instrumentista = item.instrumentistas.find((inst) => inst == _membro)
-        const vocal = item.vocais.find((inst) => inst == _membro)
+        const instrumentista = item.instrumentos.find((inst) => inst == _membro)
+        const vocal = item.vozes.find((inst) => inst == _membro)
 
 
         const escalaItem = `
@@ -158,11 +157,11 @@ function MontaEscala() {
                 </div>
             </div>
 
-                <div class="vocais">
+                <div class="vozes">
                 <span>Vozes:</span>
                 
                 <div>
-                    ${item.vocais.map((vocal) => {
+                    ${item.vozes.map((vocal) => {
                 return `<span class=${vocal == _membro && "me"}>${vocal}</span>`
             })}
                 </div>
@@ -171,13 +170,19 @@ function MontaEscala() {
                     <div class="instrumentos">
                     <span>Instrumentos:</span>
                     <div>
-                    ${item.instrumentistas.map((instrumentista) => {
+                    ${item.instrumentos.map((instrumentista) => {
                 return `<span class=${instrumentista == _membro && "me"}>${instrumentista}</span>`
             })
             }
                 
                 </div>
                 </div>
+                <div>
+                <span>Prelúdio:</span>
+                <span>${item.preludio}</span>
+
+                </div>
+
         <div class="louvores">
             <span>Louvores:</span>
             <div>
@@ -188,38 +193,23 @@ function MontaEscala() {
         
             
             </div>
-            </div>
-            <span class="extra">Música Reserva: [ ${item.louvor_extra} ]</span>
-            </div>
+
         
         `
 
-        const escalaVencida = `
-    
-        <div class="containerItem vencido">
-            <div class="ref">
-                <div>
-                    <span class="data">${item.data}</span>
-                    <span>${item.culto}</span>
-                </div>
-            </div>
-                
-
-            <span>Louvor Apresentado</span>
-            </div>
-        
-        `
 
         const passou = verificaData(item.data)
 
         if (passou) {
-            main.innerHTML += escalaVencida
-        } else if (vocal || instrumentista) {
+            return
+        } 
+        
+        if (vocal || instrumentista) {
             numDias++
             main.innerHTML += escalaItem
         }
 
-        document.querySelector('.info').innerHTML = `${_membro} - ${numDias} dias de louvor`
+        document.querySelector('.info').innerHTML = `${numDias} dias de louvor`
 
 
 
@@ -236,7 +226,6 @@ function verificaData(data) {
     const [dia, mes] = dataArr
 
     const datanew = new Date(2023, mes - 1, dia)
-
 
     return new Date(Date.now()).toLocaleDateString() > datanew.toLocaleDateString();
 

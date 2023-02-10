@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width==, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/b5ef16ceb0.js" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
-    </head>
-    
-    <body onload="MontaEscala()">
-        <div class="containerloader">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width==, initial-scale=1.0">
 
-            <div class="loader"></div>
-            <span>Carregando Dados</span>
-        </div>
-        
+    <link rel="stylesheet" href="style.css">
+    <title>Escala do Louvor IBAVs</title>
+</head>
+
+<body onload="MontaEscala()">
+    <div class="containerloader">
+
+        <div class="loader"></div>
+        <span>Carregando Dados</span>
+    </div>
+
     <div class="containerModal">
 
         <div class="modal">
+            <span>Escala de Louvor IBAV</span>
             <h3>Selecione seu nome:</h3>
 
 
@@ -28,10 +28,10 @@
 
     </div>
     <header>
-        <button type="button" onclick="Limpar()">
+        <button onclick="Limpar()" title="Limpar">
             <img src="./icons/arrow-left.svg" height="25" />
-            <h1>Escala de Louvor</h1>
         </button>
+        <h1>Escala de Louvor</h1>
     </header>
 
     <div class="info"></div>
