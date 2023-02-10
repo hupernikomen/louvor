@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    color: #222;
+    color: #000;
     user-select: none;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #f1f1f125;
 }
 
 .containerModal {
@@ -22,7 +27,7 @@
 .modal {
     z-index: 9999;
     padding: 25px;
-    box-sizing: border-box;
+    
     background: #fff;
     width: 80%;
     height: 80vh;
@@ -57,13 +62,14 @@ header {
     background: #fff;
     width: 100%;
     height: 70px;
-    box-sizing: border-box;
+    
 }
 
 header h1 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 15px;
+    line-height: 25px;
 }
 
 header span {
@@ -88,36 +94,35 @@ main {
     border: none;
     height: 40px;
     font-size: 15px;
-    background: #fff;
     color: #000;
     display: flex;
     align-items: center;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    padding-left: 15px;
     font-weight: 300;
 }
 
 .ref {
     margin-right: 21px;
     margin-bottom: 15px;
-    padding-bottom: 15px;
     /* border-bottom: 1px solid #77777750; */
 
 }
 
 .ref div {
     display: flex;
-    font-weight: 500;
-
+    align-items: baseline;
+    font-weight: 400;
 }
 
 .data {
-    margin-right: 15px;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .data::after {
     content: "-";
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 
@@ -127,7 +132,7 @@ main {
 
 .louvores {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .louvores div>span,
@@ -144,32 +149,36 @@ main {
 
 
 .containerItem {
-    padding: 20px;
-    box-shadow: 1px 1px 5px #33333320;
-    margin: 10px 5px;
+    background: #fff;
+    padding: 15px 30px;
+    box-shadow: 0px 3px 10px  #58585813;
+    margin: 15px;
+    border-radius: 0 10px 10px 0;
+    
 }
 
 .ebd {
-    border-left: 6px solid rgba(39, 128, 179, 0.39);
-    padding-left: 15px;
+    border-left: 4px solid rgba(39, 128, 179,0.500);
 }
 
 .doutrina {
-    border-left: 6px solid rgba(230, 215, 11, 0.425);
-    padding-left: 15px;
+    border-left: 4px solid rgba(230, 215, 11, 0.500);
 }
 
 .louvorepregacao {
-    border-left: 6px solid rgba(216, 77, 77, 0.507);
+    border-left: 4px solid rgba(216, 77, 77, 0.500);
 }
 
 .oracao {
-    border-left: 6px solid rgba(77, 216, 197, 0.507);
-    padding-left: 15px;
+    border-left: 4px solid rgba(77, 216, 197, 0.500);
+}
+.vencido {
+    border-left: 4px solid rgba(161, 161, 161, 0.500);
+    box-shadow: none !important;
 }
 
 .extra {
-    color: rgba(148, 148, 148, 0.623);
+    color: rgba(148, 148, 148, 0.500);
 }
 
 .me {
