@@ -1,0 +1,76 @@
+[
+
+    {
+        "data": "12/02",
+        "culto": "EBD",
+        "preludio":"",
+        "louvores": ["Cantor Cristão 545", "Autoridade e Poder"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Paulinha", "Kelviane", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley","André"]
+        
+    },
+    {
+        "data": "12/02",
+        "culto": "Louvor e Pregação",
+        "preludio":"",
+        "louvores": ["Não há Deus maior", "Meu Mestre", "Jó"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Paulinha", "Kelviane", "Edmilson"],
+        "instrumentos": ["Thalyson", "Wesley"]
+    },
+    {
+        "data": "17/02",
+        "culto": "Oração",
+        "preludio":"",
+        "louvores": ["Cria em Mim", "Alto Preço"],
+        "louvor_extra": "Ao único",
+        "vozes": ["Edvan", "Duda", "Lidiane"],
+        "instrumentos": ["Thalyson", "Wesley","André"]
+    },
+    {
+        "data": "19/02",
+        "culto": "EBD",
+        "preludio":"",
+        "louvores": ["Cantor Cristão 545", "Eu navegarei"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Paulinha", "Laís", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley","André"]
+    },
+    {
+        "data": "19/02",
+        "culto": "Louvor e Pregação",
+        "preludio":"",
+        "louvores": ["Vem esta é a hora", "Isaías 9", "Rendido Estou"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Edmilson", "Paulinha", "Laís"],
+        "instrumentos": ["Thalyson", "Wesley"]
+    },
+    {
+        "data": "24/02",
+        "culto": "Doutrina",
+        "preludio":"",
+        "louvores": ["Ao único", "Ele é exaltado"],
+        "louvor_extra": "Ao único",
+        "vozes": ["Edvan", "Lidiane", "Duda"],
+        "instrumentos": ["Thalyson", "Wesley"]
+    },
+    {
+        "data": "26/02",
+        "culto": "EBD",
+        "preludio":"",
+        "louvores": ["Cantor Cristão 545", "Bom estarmos aqui"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Paulinha", "Kelviane", "Edvan"],
+        "instrumentos": ["Thalyson", "Wesley"]
+    },
+    {
+        "data": "26/02",
+        "culto": "Louvor e Pregação",
+        "preludio":"Em Espírito, Em Verdade",
+        "louvores": ["Poder pra salvar","Maranata", "Alvo mais que a neve", "Porque Ele vive"],
+        "louvor_extra": "Todavia me Alegrarei",
+        "vozes": ["Paulinha", "Edmilson", "Lidiane"],
+        "instrumentos": ["Thalyson", "Wesley"]
+    }
+]

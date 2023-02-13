@@ -70,15 +70,33 @@ header {
 header h1 {
     font-size: 25px;
     font-weight: 700;
-    margin-left: 15px;
     line-height: 30px;
 }
 
+header .mes {
+    width: 60px;
+    text-align: end;
+}
+.container_mes {
+    min-width: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.desc_mes {
+    font-weight: 300;
+    font-size: 9px;
+
+}
 
 header button {
     display: flex;
     border: none;
     background: #fff;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
 
 }
 
