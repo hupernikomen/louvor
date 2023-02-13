@@ -43,11 +43,12 @@ function Limpar() {
 
 async function MontaEscala() {
 
-    await fetch("dados.json")
+    await fetch("./json/escala.json")
         .then((res) => res.json()
             .then((dados) => {
 
                 dados.map((item) => {
+                    if (!item.status) return
 
                     const instrumentista = item.instrumentos.find((inst) => inst == _membro)
                     const vocal = item.vozes.find((inst) => inst == _membro)
@@ -55,10 +56,9 @@ async function MontaEscala() {
                     const escalaItem = `
     
         <div class="containerItem ${item.culto == "EBD" ? "ebd" :
-                            item.culto == "Doutrina" ? "doutrina" :
+                            item.culto == "Oração/Doutrina" ? "sexta" :
                                 item.culto == "Louvor e Pregação" ? "louvorepregacao" :
-                                    item.culto == "Oração" ? "oracao" :
-                                        "outro"
+                                    "outro"
                         }">
             <div class="ref">
                 <div>
@@ -116,7 +116,14 @@ async function MontaEscala() {
                         main.innerHTML += escalaItem
                     }
 
-                    document.querySelector('.info').innerHTML = `${numDias} dias de louvor`
+
+                    const info = document.querySelector('.info')
+                    if (numDias == 0) {
+                        info.innerHTML = "Aguardando seleção do ir. Thalyson"
+                    } else {
+
+                        info.innerHTML = `${numDias} dias de louvor`
+                    }
 
                 })
             }))
@@ -129,10 +136,11 @@ function verificaData(data) {
     var dataArr = data.split('/')
 
     const [dia, mes] = dataArr
-
+    const date = new Date()
+    const futureDate = new Date(date.setMonth(date.getMonth() + 1));
     const datanew = new Date(2023, mes - 1, dia)
 
-    return new Date(Date.now()).toLocaleDateString() > datanew.toLocaleDateString();
+    return new Date(Date.now()) > datanew && datanew < futureDate;
 
 
 }
