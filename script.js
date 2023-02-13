@@ -4,14 +4,14 @@ const modal = document.querySelector('.modal')
 const containerModal = document.querySelector('.containerModal')
 var numDias = 0
 
-const membros = ["Wilson", "Paulinha", "Duda", "Lidiane", "Edvan", "Edmilson", "Kelviane", "Warley", "Thiago", , "Wesley", "Thalyson", "André"]
+const membros = ["Wilson", "Paulinha", "Duda", "Lidiane", "Edvan", "Edmilson", "Laís","Kelviane", "Warley", "Thiago", , "Wesley", "Thalyson", "André"]
 
 const _membro = localStorage.getItem('@membro')
 const h1 = document.querySelector("h1").innerHTML = _membro
 
 _membro == null ? containerModal.style.display = "flex" : containerModal.style.display = "none"
 
-membros.map((membro) => {
+membros.sort().map((membro) => {
     const button = document.createElement('button')
     button.className = 'btn_membro'
     button.innerHTML = membro
