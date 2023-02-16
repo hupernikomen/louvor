@@ -1,4 +1,4 @@
-1.	A minha vida é do mestre
+1.	Meu Mestre 
 2.	Ainda que a figueira - Fernandinho 
 3.	Alto preço 
 4.	Ao único
@@ -50,3 +50,44 @@
 50.	Renova-me
 51.	Celebrai
 52.	Ele é exaltado
+53. Espirito enche a minha vida
+54. Me derramar 
+55. Quebrantado 
+56. Reina em mim 
+57. Deus Proverá
+58. Tu és Soberano
+59. Consagração
+60. Eis me aqui 
+61. Deus é o meu refúgio
+62. Doce Nome
+63. Caminho no Deserto
+64. Estrela da Manhã
+65. Calmo, Sereno, Tranquilo
+66. Galhos Secos
+67. A alegria está no coração
+68. Deus forte como Jeová
+69. Deus forte
+70. Canção do Apocalipse
+71. Grande é o SENHOR
+72. Nada além do sangue
+
+EBD
+01. A Alegria está no coração
+02. CC 545 - Vamos à Escola
+03. Autoridade e Poder
+04. Bom estarmos aqui
+05.	Corpo e família
+06. Em Espírito em verdade
+07.	Não há Deus maior
+
+HINOS CC e HCC
+123 - Bendito Cordeiro
+545 - Porque Ele Vive - HCC
+323 - Castelo Forte
+160 - A fé Contemplada
+579 - Olhando para Cristo
+328 - Sossegai
+259 - A última hora
+422 - Trabalho Cristão
+162 - Vigiar e Orar
+

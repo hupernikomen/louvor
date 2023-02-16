@@ -1,0 +1,39 @@
+[
+    {
+        "dia": "Oração e Doutrina",
+        "fixos": [],
+        "variacoes": [
+            "Duda",
+            "Lidiane",
+            "Edvan",
+            "Laís"
+        ]
+    },
+    {
+        "dia": "EBD",
+        "fixos": [
+            "Paulinha",
+            "Kelviane"
+        ],
+        "variacoes": [
+            "Edvan",
+            "Lidiane",
+            "Lais",
+            "Duda"
+        ]
+    },
+    {
+        "dia": "Louvor e Pregação",
+        "fixos": [
+            "Edmilson",
+            "Fernanda"
+        ],
+        "variacoes": [
+            "Lais",
+            "Duda",
+            "Lidiane",
+            "Kelviane",
+            "Edvan"
+        ]
+    }
+]

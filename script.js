@@ -2,9 +2,10 @@ const main = document.querySelector('main')
 const header = document.querySelector('header')
 const modal = document.querySelector('.modal')
 const containerModal = document.querySelector('.containerModal')
+const container = document.querySelector('.containerItem')
 var numDias = 0
 
-const membros = ["Wilson", "Paulinha", "Duda", "Lidiane", "Edvan", "Edmilson", "Laís","Kelviane", "Warley", "Thiago", , "Wesley", "Thalyson", "André"]
+const membros = ["Wilson", "Paulinha", "Duda", "Lidiane", "Edvan", "Edmilson", "Laís", "Kelviane", "Annes", "Warley", "Thiago", , "Wesley", "Thalyson", "André"]
 
 const _membro = localStorage.getItem('@membro')
 const h1 = document.querySelector("h1").innerHTML = _membro
@@ -17,6 +18,21 @@ membros.sort().map((membro) => {
     button.innerHTML = membro
     modal.append(button)
 })
+
+var posicaoInicial = document.querySelector('main');
+var i = posicaoInicial.getBoundingClientRect()
+
+window.addEventListener('scroll', () => {
+
+    posicoes = posicaoInicial.getBoundingClientRect()
+
+    if (posicoes.y < 60) {
+        header.style.boxShadow = "0px 0px 10px #aaaaaa50"
+    } else {
+        header.style.boxShadow = "none"
+    }
+})
+
 
 const arrBtn = document.querySelectorAll('.btn_membro')
 
@@ -36,22 +52,27 @@ arrBtn.forEach((btn) => {
 })
 
 function Limpar() {
-
     localStorage.removeItem("@membro");
     window.location.reload(true);
 }
 
 async function MontaEscala() {
 
+
     await fetch("./json/escala.json")
         .then((res) => res.json()
             .then((dados) => {
 
                 dados.map((item) => {
+
+
                     if (!item.status) return
+
 
                     const instrumentista = item.instrumentos.find((inst) => inst == _membro)
                     const vocal = item.vozes.find((inst) => inst == _membro)
+
+
 
                     const escalaItem = `
     
@@ -68,19 +89,17 @@ async function MontaEscala() {
             </div>
 
                 <div class="vozes">
-                <span>Vozes:</span>
                 
                 <div>
-                    ${item.vozes.map((vocal) => {
+                    ${item.vozes.sort().map((vocal) => {
                             return `<span class=${vocal == _membro && "me"}>${vocal}</span>`
                         })}
                 </div>
             </div>
 
                     <div class="instrumentos">
-                    <span>Instrumentos:</span>
                     <div>
-                    ${item.instrumentos.map((instrumentista) => {
+                    ${item.instrumentos.sort().map((instrumentista) => {
                             return `<span class=${instrumentista == _membro && "me"}>${instrumentista}</span>`
                         })
                         }
@@ -98,16 +117,27 @@ async function MontaEscala() {
 
         <div class="louvores">
             <span>Louvores:</span>
-            <div>
+            <div class="louvor">
             ${item.louvores.map((louvor) => {
+
                             return `<span>${louvor}</span>`
                         })
                         }
             </div>
-        `
+
+            
+            
+            </div>
+
+            ${item.obs &&
+                        `<span class="obs">Obs.: ${item.obs}</span>`
+                        }
+            
+            `
+                    const info = document.querySelector('.info')
                     const passou = verificaData(item.data)
 
-                    if (passou) {
+                    if (!passou) {
                         return
                     }
 
@@ -117,17 +147,18 @@ async function MontaEscala() {
                     }
 
 
-                    const info = document.querySelector('.info')
                     if (numDias == 0) {
                         info.innerHTML = "Aguardando seleção do ir. Thalyson"
                     } else {
-
-                        info.innerHTML = `${numDias} dias de louvor`
+                        info.innerHTML = `Você está escalado(a) para ${numDias} dia${numDias > 1 ? "s" : ""} de louvor nos próximos 30 dias`
                     }
 
+                    if (_membro == "Wilson") {
+                        info.innerHTML = "Administrador"
+                        main.innerHTML += escalaItem
+                    }
                 })
             }))
-
 }
 
 
@@ -137,10 +168,19 @@ function verificaData(data) {
 
     const [dia, mes] = dataArr
     const date = new Date()
+    const hoje = new Date(Date.now())
+
     const futureDate = new Date(date.setMonth(date.getMonth() + 1));
     const datanew = new Date(2023, mes - 1, dia)
+    const ontem = new Date()
+    ontem.setDate(hoje.getDate() - 1)
 
-    return new Date(Date.now()) > datanew && datanew < futureDate;
+    if (ontem <= datanew && datanew < futureDate) {
+        return true
+    } else {
+        return false
+
+    }
 
 
 }

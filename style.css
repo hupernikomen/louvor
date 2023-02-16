@@ -7,10 +7,10 @@
     color: #000;
     user-select: none;
     box-sizing: border-box;
-    
 }
-body{
-    background: #f1f1f125;
+
+body {
+    background: #fff;
 }
 
 .containerModal {
@@ -21,34 +21,39 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0000009c;
+    background-color: #0000006e;
 }
 
 .modal {
     z-index: 9999;
     padding: 25px;
-    
+    box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.63);
     background: #fff;
-    width: 80%;
-    height: 80vh;
-    border-radius: 4px;
+    width: 90%;
+    height: 85vh;
+    border-radius: 10px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     overflow-x: scroll;
 }
 
-.modal h3 {
+.modal span {
     margin-bottom: 20px;
 }
 
 .btn_membro {
-    border: none;
+    border: 1px solid #aaa;
+    background: #fff;
+    border-radius: 30px;
+    width: 60%;
+    height: 60px;
     padding: 15px;
     font-size: 16px;
-    margin-bottom: 6px;
-    box-shadow: 0px 0px 3px #00000030;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 3px #8d8d8d23;
+    border-left: 4px solid rgba(124, 126, 105, 0.658);
 }
-
 
 header {
     display: flex;
@@ -61,8 +66,10 @@ header {
     top: 0;
     background: #fff;
     width: 100%;
-    height: 60px;
-    
+    height: 65px;
+
+    transition: all .5s;
+
     font-size: 25px;
     font-weight: 700;
 }
@@ -77,12 +84,14 @@ header .mes {
     width: 60px;
     text-align: end;
 }
+
 .container_mes {
     min-width: 60px;
     display: flex;
     flex-direction: column;
     text-align: end;
 }
+
 .desc_mes {
     font-weight: 300;
     font-size: 9px;
@@ -107,9 +116,10 @@ main {
 
 .info {
     width: 100%;
+    text-align: center;
+    padding: 0 20px;
     border: none;
     height: 30px;
-    font-size: 15px;
     color: #000;
     display: flex;
     align-items: center;
@@ -120,7 +130,6 @@ main {
 .ref {
     margin-right: 21px;
     margin-bottom: 15px;
-    /* border-bottom: 1px solid #77777750; */
 
 }
 
@@ -131,19 +140,20 @@ main {
 }
 
 .data {
-    margin-right: 5px;
-    font-size: 22px;
+    margin-right: 15px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .data::after {
     content: "-";
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 
 .vozes {
     display: flex;
+    margin-left: -5px;
 }
 
 .louvores {
@@ -160,22 +170,23 @@ main {
 
 .instrumentos {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-left: -5px;
 }
 
 
 .containerItem {
     background: #fff;
-    padding: 15px 30px;
-    box-shadow: 0px 3px 10px  #58585813;
-    margin: 15px;
-    border-radius: 0 10px 10px 0;
-    border: .5px solid #77777730;
-    
+    padding: 25px;
+    box-shadow: 0px 5px 15px #58585831;
+    margin: 25px 20px;
+    border-radius: 25px;
+    border: 1px solid #64626230;
+
 }
 
 .ebd {
-    border-left: 4px solid rgba(39, 128, 179,0.500);
+    border-left: 4px solid rgba(39, 128, 179, 0.500);
 }
 
 .sexta {
@@ -192,7 +203,7 @@ main {
 
 .me {
     font-weight: 500;
-    color: #5fa71d;
+    color: #58a70f;
 }
 
 .containerloader {
@@ -230,4 +241,18 @@ main {
     100% {
         transform: rotate(360deg);
     }
+}
+
+footer {
+    padding: 20px;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+.obs {
+    color: #aaa;
+    font-style: italic;
 }
