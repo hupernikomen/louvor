@@ -43,7 +43,7 @@
 43.	Te agradeço (Kleber Lucas)
 44.	Teu amor não falha
 45.	Todavia me alegrarei
-46.	Vem está é a hora
+46.	Vem está é a hora - Lais/Edmilson/Paulinha
 47.	Venha o Teu Reino 
 48.	Vim para adorar-te
 49.	Vou te alegrar
@@ -70,6 +70,7 @@
 70. Canção do Apocalipse
 71. Grande é o SENHOR
 72. Nada além do sangue
+73. Bom é estar
 
 EBD
 01. A Alegria está no coração
@@ -81,6 +82,7 @@ EBD
 07.	Não há Deus maior
 
 HINOS CC e HCC
+46 - Jesus me transformou
 123 - Bendito Cordeiro
 545 - Porque Ele Vive - HCC
 323 - Castelo Forte
@@ -91,3 +93,5 @@ HINOS CC e HCC
 422 - Trabalho Cristão
 162 - Vigiar e Orar
 
+A INCLUIR
+Deus está aqui

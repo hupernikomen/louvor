@@ -11,30 +11,21 @@
 </head>
 
 <body onload="MontaEscala()">
-    <div class="containerloader">
 
-        <div class="loader"></div>
-        <span>Carregando Dados</span>
-    </div>
-
-    <div class="containerModal">
-
-        <div class="modal">
-            <span>Escala de Louvor IBAV</span>
-
-
-        </div>
-
-    </div>
     <header>
-        <button onclick="Limpar()" title="Limpar">
-            <img src="./icons/arrow-left.svg" height="30" />
-        </button>
-        <h1>Escala de Louvor</h1>
+        <div class="topo">
 
-        <div class="container_mes">
+            <button onclick="Selecionar()" title="Selecao" class="select">
+                <img src="./icons/filter-variant.svg" height="30" />
+            </button>
+            <h1>Escala de Louvor</h1>
+
+            <div class="container_mes">
+            </div>
         </div>
+        <div class="scroll"></div>
     </header>
+
 
     <div class="info"></div>
 
@@ -44,6 +35,7 @@
     <footer>
         <p>Chegue no horário marcado para os ensaios</p>
         <p>Seja um servo zeloso pelas coisas de Deus</p>
+        <h3>e... louvem sempre com alegria !!!</h3>
     </footer>
 
     <script src="./script.js"></script>
