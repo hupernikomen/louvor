@@ -138,9 +138,11 @@ main {
 }
 
 
-.vozes {
+.vozesInstrumentos {
     display: flex;
     margin-left: -5px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .louvores {
@@ -155,11 +157,10 @@ main {
     content: "- ";
 }
 
-.instrumentos span,
-.vozes span {
+.vozesInstrumentos span {
     display: block;
     padding: 0 5px;
-
+    
 }
 
 .louvores>span, .preludio>span {
@@ -168,25 +169,19 @@ main {
 }
 
 
-.instrumentos {
-    margin-left: -5px;
-    display: flex;
-    margin-bottom: 10px;
-}
-
-
 .containerItem {
     background: #fff;
     padding: 40px 25px;
-    box-shadow: 0px 5px 30px #58585827;
-    margin: 10px 20px;
+    box-shadow: 0px 4px 10px #58585827;
+    margin: 10px 15px;
     border-radius: 8px;
-    border: .5px solid rgba(126, 126, 126, 0.274);
+    border: .5px solid #97979746;
 }
 
 
 .me {
     font-weight: 500;
+    color: #000;
 }
 
 .containerloader {
@@ -243,6 +238,25 @@ footer h3 {
     color: #000;
 }
 
+.container_obs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.container_obs img {
+    margin-right: 10px;
+}
+
 .obs {
-    font-size: 14px;
+
+    font-size: 15px;
+    color: #333;
+}
+.item_obs {
+    display: flex;
+    flex-direction: column;
+}
+.obs::before{
+    content: "- ";
 }

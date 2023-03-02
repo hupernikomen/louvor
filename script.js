@@ -81,6 +81,9 @@ async function MontaEscala() {
 
 					const containerItem = document.createElement('div')
 					containerItem.className = "containerItem"
+					if(item.culto=="EBD"|| item.culto == "Oração/Doutrina"){
+						containerItem.style.marginTop = "40px"
+					}
 
 					containerItem.append(DataCulto(item.data, item.culto))
 					containerItem.append(VozesInstrumentos(item.vozes, item.instrumentos, _membro))
@@ -101,7 +104,7 @@ async function MontaEscala() {
 						if (numDias == 0) {
 							info.innerHTML = "Aguardando seleção do ir. Thalyson"
 						} else {
-							info.innerHTML = `Você está escalado(a) para ${numDias} dia${numDias > 1 ? "s" : ""} de louvor nos próximos 30 dias`
+							info.innerHTML = `Você está escalado(a) para ${numDias} culto${numDias > 1 ? "s" : ""} de louvor nos próximos 30 dias`
 						}
 
 						if (_membro == "Todos") {
@@ -123,6 +126,15 @@ function DataCulto(data, culto) {
 	_data.innerHTML = data
 	container.append(_data)
 
+	switch (culto) {
+		case "Louvor e Pregação":
+			_data.style.color = "#a72222"
+			break;
+	
+		default:
+			break;
+	}
+
 	let _culto = document.createElement('span')
 	_culto.innerHTML = culto
 	container.append(_culto)
@@ -135,27 +147,27 @@ function VozesInstrumentos(vozes, instrumentos, membro) {
 
 	let container = document.createElement('div')
 
-	let containerV = document.createElement('div')
-	let containerI = document.createElement('div')
-	containerV.className = "vozes"
-	containerI.className = "instrumentos"
+	let containerVI = document.createElement('div')
+	containerVI.className = "vozesInstrumentos"
 
 	vozes.map((item) => {
 		let voz = document.createElement('span')
 		if (item == membro) { voz.className = "me" }
 		voz.innerHTML = item
-		containerV.append(voz)
+		containerVI.append(voz)
+		voz.style.backgroundColor="#fffdeb60"
 	})
-
+	
 	instrumentos.map((item) => {
 		let instrumento = document.createElement('span')
 		if (item == membro) { instrumento.className = "me" }
 		instrumento.innerHTML = item
-
-		containerI.append(instrumento)
+		
+		containerVI.append(instrumento)
+		instrumento.style.backgroundColor="#ebffed50"
 	})
 
-	container.append(containerV, containerI)
+	container.append(containerVI)
 
 	return container
 
@@ -181,7 +193,7 @@ function Louvores(preludio, louvores) {
 	}
 
 	let _container_louvores = document.createElement('div')
-	_container_louvores.className="louvores"
+	_container_louvores.className = "louvores"
 
 	let _louvores = document.createElement('div')
 
@@ -204,12 +216,27 @@ function Louvores(preludio, louvores) {
 function Obs(obs) {
 
 	const container = document.createElement('div')
+	container.className="container_obs"
 
-	let _obs = document.createElement('span')
-	_obs.className="obs"
-	_obs.innerHTML = obs
-	container.append(_obs)
+    
+	
+	if(obs.length > 0) {
+		container.style.paddingTop= "15px"
+		container.style.borderTop= ".5px solid #ddd"
 
+		let item_obs = document.createElement("div")
+		item_obs.className = "item_obs"
+		
+		obs.map((item) => {
+			let _obs = document.createElement('span')
+			_obs.className = "obs"
+			_obs.innerHTML = item
+			
+			item_obs.append(_obs)
+		})
+		container.prepend(item_obs)
+		
+	}
 	return container
 }
 
@@ -232,6 +259,4 @@ function verificaData(data) {
 	} else {
 		return false
 	}
-
-
 }

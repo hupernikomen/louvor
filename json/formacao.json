@@ -1,39 +1,38 @@
 [
     {
-        "dia": "Oração e Doutrina",
-        "fixos": [],
-        "variacoes": [
-            "Duda",
-            "Lidiane",
-            "Edvan",
-            "Laís"
-        ]
-    },
-    {
-        "dia": "EBD",
-        "fixos": [
-            "Paulinha",
-            "Kelviane"
-        ],
-        "variacoes": [
-            "Edvan",
-            "Lidiane",
-            "Lais",
-            "Duda"
-        ]
-    },
-    {
-        "dia": "Louvor e Pregação",
-        "fixos": [
+        "escala": [
             "Edmilson",
-            "Fernanda"
-        ],
-        "variacoes": [
-            "Lais",
-            "Duda",
-            "Lidiane",
             "Kelviane",
-            "Edvan"
+            "Fernanda ou Paulinha"
+        ],
+        "Louvores": [
+            "Jó",
+            "Bom estarmos aqui",
+            "Meu Mestre"
+        ]
+    },
+    {
+        "escala": [
+            "Edmilson",
+            "Laís",
+            "Fernanda ou Paulinha"
+        ],
+        "louvores": [
+            "Vem,esta é a hora da adoração",
+            "Isaías 9",
+            "Rendido Estou"
+        ]
+    },
+    {
+        "escala": [
+            "Edmison",
+            "Lidiane",
+            "Fernanda ou Paulinha"
+        ],
+        "Louvores": [
+            "Poder Pra Salvar",
+            "Maranata",
+            "Em Espirito Em Verdade"
         ]
     }
 ]

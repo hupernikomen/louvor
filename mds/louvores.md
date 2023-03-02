@@ -25,7 +25,6 @@
 25.	Meu Alvo é Cristo 
 26.	Meu barquinho
 27.	Não há Deus maior
-28.	Não se turbe o vosso coração
 29.	Nosso General
 30.	Oferta de Amor
 31.	Os sonhos de Deus
@@ -60,7 +59,6 @@
 60. Eis me aqui 
 61. Deus é o meu refúgio
 62. Doce Nome
-63. Caminho no Deserto
 64. Estrela da Manhã
 65. Calmo, Sereno, Tranquilo
 66. Galhos Secos
@@ -83,6 +81,7 @@ EBD
 
 HINOS CC e HCC
 46 - Jesus me transformou
+62 - Nome Precioso
 123 - Bendito Cordeiro
 545 - Porque Ele Vive - HCC
 323 - Castelo Forte
