@@ -84,6 +84,9 @@ header {
     min-width: 60px;
     text-align: end;
 }
+.culto {
+    font-weight: 500;
+}
 
 .select {
     display: flex;

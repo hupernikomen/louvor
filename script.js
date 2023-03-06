@@ -108,7 +108,7 @@ async function MontaEscala() {
 						}
 
 						if (_membro == "Todos") {
-							info.innerHTML = "Escala dos proximos 30 dias de todos os membros"
+							info.innerHTML = "Escala dos proximos 30 dias de todos os musicos"
 							main.append(containerItem)
 						}
 					}
@@ -126,18 +126,23 @@ function DataCulto(data, culto) {
 	_data.innerHTML = data
 	container.append(_data)
 
+
+
+	let _culto = document.createElement('span')
+	_culto.className = "culto"
+	_culto.innerHTML = culto
+	container.append(_culto)
+
 	switch (culto) {
 		case "Louvor e Pregação":
 			_data.style.color = "#a72222"
+			_culto.style.color = "#a72222"
+			
 			break;
 	
 		default:
 			break;
 	}
-
-	let _culto = document.createElement('span')
-	_culto.innerHTML = culto
-	container.append(_culto)
 
 	return container
 

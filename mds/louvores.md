@@ -33,7 +33,7 @@
 34.	Poderoso Deus
 35.	Por que ele vive
 36.	Pra sempre
-37.	Quão grande e o meu Deus
+37.	Quão grandeo meu Deus
 38.	Quebra de orgulho
 39.	Quero que valorize 
 40.	Rendido Estou
@@ -42,7 +42,7 @@
 43.	Te agradeço (Kleber Lucas)
 44.	Teu amor não falha
 45.	Todavia me alegrarei
-46.	Vem está é a hora - Lais/Edmilson/Paulinha
+46.	Vem está é a hora
 47.	Venha o Teu Reino 
 48.	Vim para adorar-te
 49.	Vou te alegrar
