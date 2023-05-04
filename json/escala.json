@@ -1,70 +1,27 @@
 [
     {
         "status": true,
-        "data": "12/02",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Autoridade e Poder"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edvan"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "12/02",
-        "culto": "Louvor e Pregação",
-        "preludio": "",
-        "louvores": [
-            "Não há Deus maior",
-            "Meu Mestre",
-            "Jó"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edmilson"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "17/02",
+        "data": "31/03",
         "culto": "Oração/Doutrina",
         "preludio": "",
         "louvores": [
-            "Cria em Mim",
-            "Alto Preço"
+            "Meu barquinho",
+            "Poderoso Deus"
         ],
         "vozes": [
+            "Lidiane",
             "Edvan",
-            "Duda",
-            "Lidiane"
+            "Duda"
         ],
         "instrumentos": [
-            "Thalyson",
-            "Wesley"
+            "Wesley",
+            "Warley"
         ],
         "obs": []
     },
     {
         "status": true,
-        "data": "19/02",
+        "data": "02/04",
         "culto": "EBD",
         "preludio": "",
         "louvores": [
@@ -73,477 +30,410 @@
         ],
         "vozes": [
             "Paulinha",
+            "Kelviane",
+            "Edvan",
+            "Edmilson"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "02/04",
+        "culto": "Louvor e Pregação",
+        "preludio": "Renova-me",
+        "louvores": [
+            "Cria em mim",
+            "Eu navegarei",
+            "CC - 62. Nome Precioso",
+            "CC - 579. Olhando para Cristo"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Kelviane",
+            "Edvan",
+            "Edmilson"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Thiago",
+            "André"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "07/04",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Deus Proverá",
+            "Tu és Soberano"
+        ],
+        "vozes": [
+            "Lidiane",
+            "Lais",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Wesley",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "09/04",
+        "culto": "EBD",
+        "preludio": "",
+        "louvores": [
+            "CC 545 - Vamos à Escola",
+            "CC 579 - Olhando para Cristo"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Duda",
+            "Edvan",
+            "Edmilson"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "09/04",
+        "culto": "Louvor e Pregação",
+        "preludio": "Alto preço",
+        "louvores": [
+            "Poderoso Deus",
+            "Poder pra Salvar",
+            "CC - 62. Nome Precioso",
+            "CC - 579. Olhando para Cristo"
+        ],
+        "vozes": [
+            "Fernanda",
+            "Duda",
+            "Edvan",
+            "Edmilson",
+            "Paulinha"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Thiago",
+            "André"
+        ],
+        "obs": [
+        ]
+    },
+    {
+        "status": true,
+        "data": "14/04",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Quero que valorize ",
+            "Meu barquinho"
+        ],
+        "vozes": [
+            "Lidiane",
+            "Duda",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "16/04",
+        "culto": "EBD",
+        "preludio": "",
+        "louvores": [
+            "CC 545 - Vamos à Escola",
+            "CC 385 - Exaltado"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Kelviane",
             "Laís",
             "Edvan"
         ],
         "instrumentos": [
             "Thalyson",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "16/04",
+        "culto": "Louvor e Pregação",
+        "preludio": "Jesus é o caminho",
+        "louvores": [
+            "Jó",
+            "Maranata",
+            "CC 385 - Exaltado",
+            "CC 456 - O Estandarte"
+        ],
+        "vozes": [
+            "Kelviane",
+            "Paulinha",
+            "Laís",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Warley",
+            "André"
+        ],
+        "obs": [
+        ]
+    },
+    {
+        "status": true,
+        "data": "21/04",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Não há Deus maior",
+            "Quebrantado"
+        ],
+        "vozes": [
+            "Lidiane",
+            "Laís",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "23/04",
+        "culto": "EBD",
+        "preludio": "",
+        "louvores": [
+            "CC 545 - Vamos à Escola"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Fernanda",
+            "Lidiane",
+            "Duda",
+            "Edmilson"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "23/04",
+        "culto": "Louvor e Pregação",
+        "preludio": "Não há Deus maior",
+        "louvores": [
+            "Eu navegarei",
+            "Filho do Deus vivo",
+            "CC 15 - Exultação",
+            "CC 509 - Verei meu Redentor"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Fernanda",
+            "Duda",
+            "Lidiane",
+            "Edmilson"
+        ],
+        "instrumentos": [
+            "Thalyson",
+            "Warley",
+            "Wesley",
+            "André"
+        ],
+        "obs": [
+        ]
+    },
+    {
+        "status": true,
+        "data": "28/04",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Quebrantado",
+            "Todavia me alegrarei"
+        ],
+        "vozes": [
+            "Lidiane",
+            "Lais",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Warley",
             "Wesley"
         ],
         "obs": []
     },
     {
         "status": true,
-        "data": "19/02",
-        "culto": "Louvor e Pregação",
-        "preludio": "Vem esta é a hora",
+        "data": "30/04",
+        "culto": "EBD",
+        "preludio": "",
         "louvores": [
-            "Isaías 9",
-            "Rendido Estou",
-            "CC 411 - Dia Festivo",
+            "CC 545 - Vamos à Escola",
+            "CC 123 - Bendito Cordeiro",
+            "Corpo e família"
+        ],
+        "vozes": [
+            "Paulinha",
+            "Kelviane",
+            "Lais"        ],
+        "instrumentos": [
+            "Thalyson",
+            "Wesley",
+            "Warley"
+        ],
+        "obs": []
+    },
+    {
+        "status": true,
+        "data": "30/04",
+        "culto": "Louvor e Pregação",
+        "preludio": "Corpo e família",
+        "louvores": [
+            "Celebrai com júbilo",
+            "Te agradeço (Diante do Trono)",
+            "CC 112 - Vencendo Vem Jesus",
             "CC 108 - Chamada Final"
         ],
         "vozes": [
-            "Edmilson",
-            "Paulinha",
-            "Laís"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "24/02",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Ao único",
-            "Ele é exaltado"
-        ],
-        "vozes": [
-            "Edvan",
-            "Lidiane",
-            "Duda"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "26/02",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Bom estarmos aqui",
-            "Alvo mais que a neve",
-            "Porque Ele vive"
-        ],
-        "vozes": [
             "Paulinha",
             "Kelviane",
-            "Edvan"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": [
-            "A partir de hoje o momento da Ceia será na EBD"
-        ]
-    },
-    {
-        "status": true,
-        "data": "26/02",
-        "culto": "Louvor e Pregação",
-        "preludio": "Em Espírito, Em Verdade",
-        "louvores": [
-            "Poder pra salvar",
-            "Maranata",
-            "CC 323 - Castelo Forte",
-            "CC 160 - A fé Contemplada"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Edmilson",
-            "Lidiane"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "03/03",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Digno de Glória",
-            "Meu Barquinho"
-        ],
-        "vozes": [
-            "Edvan",
-            "Duda",
-            "Laís"
-        ],
-        "instrumentos": [
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "05/03",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Renova-me"
-        ],
-        "vozes": [
-            "Edvan",
-            "Paulinha",
-            "Kelviane"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "05/03",
-        "culto": "Louvor e Pregação",
-        "preludio": "Jesus é o caminho",
-        "louvores": [
-            "Renova-me",
-            "Nenhuma condenação há",
-            "CC 579 - Olhando para Cristo",
-            "CC 62 - Nome Precioso"
-        ],
-        "vozes": [
-            "Edvan",
-            "Duda",
-            "Paulinha",
-            "Kelviane"
-        ],
-        "instrumentos": [
-            "Annes",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "10/03",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Deus esta aqui",
-            "Alto preço"
-        ],
-        "vozes": [
-            "Edvan",
-            "Lidiane",
-            "Laís"
-        ],
-        "instrumentos": [
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "12/03",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Não há Deus maior"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edmilson",
-            "Lidiane",
-            "Edvan"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "12/03",
-        "culto": "Louvor e Pregação",
-        "preludio": "Não há Deus maior",
-        "louvores": [
-            "Medley: Nosso General e Galileu",
-            "Vim para adorar-te",
-            "CC 259 - A última hora",
-            "CC 422 - Trabalho Cristão"
-        ],
-        "vozes": [
-            "Edmilson",
-            "Laís",
-            "Lidiane",
-            "Paulinha",
-            "Kelviane"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": [
-            "Não ha Deus maior: Kelviane sobe, Lais desce"
-        ]
-    },
-    {
-        "status": true,
-        "data": "17/03",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Rompendo em Fé",
-            "Bom Estarmos aqui"
-        ],
-        "vozes": [
-            "Edvan",
-            "Lidiane",
-            "Duda"
-        ],
-        "instrumentos": [
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "19/03",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Jó"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edmilson",
-            "Fernanda"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "19/03",
-        "culto": "Louvor e Pregação",
-        "preludio": "Ao único",
-        "louvores": [
-            "Escudo",
-            "Jó",
-            "CC 509 - Verei meu Redentor",
-            "CC 46 - Jesus me transformou"
-        ],
-        "vozes": [
-            "Fernanda",
-            "Duda",
-            "Edmilson",
-            "Paulinha",
-            "Kelviane"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": [
-            "Jó: Kelviane sobe, Duda desce"
-        ]
-    },
-    {
-        "status": true,
-        "data": "24/03",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Doce Nome",
-            "Tu és Soberano"
-        ],
-        "vozes": [
-            "Duda",
-            "Laís",
-            "Edvan"
-        ],
-        "instrumentos": [
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "26/03",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Venha o Teu Reino"
-        ],
-        "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edmilson",
-            "Edvan",
-            "Fernanda"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Warley"
-        ],
-        "obs": []
-    },
-    {
-        "status": true,
-        "data": "26/03",
-        "culto": "Louvor e Pregação",
-        "preludio": "Vem esta é a hora",
-        "louvores": [
-            "Venha o Teu Reino",
-            "Todavia me alegrarei",
-            "CC 46 - Jesus me transformou",
-            "CC 259 - A última hora"
-        ],
-        "vozes": [
-            "Fernanda",
-            "Edmilson",
-            "Laís",
-            "Paulinha",
-            "Kelviane"
-        ],
-        "instrumentos": [
-            "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
-        ],
-        "obs": [
-            "Venha o Teu Reino: Kelviane sobe, Laís desce"
-        ]
-    },
-    {
-        "status": true,
-        "data": "31/03",
-        "culto": "Oração/Doutrina",
-        "preludio": "",
-        "louvores": [
-            "Cria em Mim",
-            "Oferta de amor"
-        ],
-        "vozes": [
-            "Lidiane",
-            "Edvan",
             "Lais"
         ],
         "instrumentos": [
+            "Thalyson",
+            "Warley",
             "Wesley",
-            "Warley"
+            "André"
+        ],
+        "obs": [
+        ]
+    },
+    {
+        "status": true,
+        "data": "05/05",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Poder pra Salvar",
+            "Reina em mim"
+        ],
+        "vozes": [
+            "Lidiane",
+            "Lais",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "Warley",
+            "Wesley"
         ],
         "obs": []
     },
     {
         "status": true,
-        "data": "02/04",
+        "data": "07/05",
         "culto": "EBD",
         "preludio": "",
         "louvores": [
-            "CC 545 - Vamos à Escola",
-            "Estrela da Manhã"
+            "CC 545 - Vamos à Escola"
         ],
         "vozes": [
-            "Paulinha",
-            "Kelviane",
-            "Edvan",
-            "Edmilson",
-            "Fernanda"
+            "Paulinha"
         ],
         "instrumentos": [
             "Thalyson",
-            "Wesley",
-            "Warley"
+            "Wesley"
         ],
-        "obs": [
-            "Estrela da Manhã: Fernanda sobe, Paulinha desce"
-        ]
+        "obs": ["Apos EBD ensaio para culto a noite"]
     },
     {
         "status": true,
-        "data": "02/04",
+        "data": "07/05",
         "culto": "Louvor e Pregação",
-        "preludio": "Estrela da Manhã",
+        "preludio": "Bom Estarmos aqui",
         "louvores": [
-            "A alegria está no coração",
-            "Nada além do sangue",
-            "Bendito Cordeiro",
-            "Olhando para Cristo"
+            "Venha o Teu Reino",
+            "Isaías 9",
+            "CC - 579. Olhando para Cristo",
+            "CC - 301. Crer e Observar"
         ],
         "vozes": [
             "Fernanda",
+            "Lais",
             "Edmilson",
-            "Duda",
-            "Paulinha",
-            "Kelviane"
+            "Edvan",
+            "Paulinha"
         ],
         "instrumentos": [
+            "André",
             "Thalyson",
-            "Wesley",
-            "Thiago",
-            "André"
+            "Warley",
+            "Wesley"
         ],
-        "obs": [
-            "Estrela da Manhã: Kelviane sobe, Paulinha desce"
-        ]
+        "obs": []
     },
     {
         "status": true,
+        "data": "12/05",
+        "culto": "Oração/Doutrina",
+        "preludio": "",
+        "louvores": [
+            "Maranata",
+            "Filho do Deus vivo"
+        ],
+        "vozes": [
+            "Kelviane",
+            "Lidiane",
+            "Lais",
+            "Edvan"
+        ],
+        "instrumentos": [
+            "André",
+            "Warley",
+            "Wesley"
+        ],
+        "obs": []
+    },
+    {
+        "status": false,
         "data": "20/05",
         "culto": "Casamento Kelviane",
         "preludio": "",
         "louvores": [
             "Eles Se Amam",
-            ""
+            "Oração do amor"
         ],
         "vozes": [
             "Fernanda",
-            "Lais",
+            "Duda",
             "Edmilson"
         ],
         "instrumentos": [
-            "Thalyson",
-            "Wesley"
         ]
     }
 ]

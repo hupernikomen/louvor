@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.containerbanner {
+    position: fixed;
+    padding: 20px;
+    z-index: 999999;
+    bottom: 10%;
+    top: 10%;
+    left: 10%;
+    border-radius: 10px;
+    right: 10%;
+    height: 70vh;
+    display: flex;
+    background: red;
+    box-shadow: 10px 10px 20px #00000050;
+}
+.banner{
+    color: #fff;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -175,7 +194,7 @@ main {
 .containerItem {
     background: #fff;
     padding: 40px 25px;
-    box-shadow: 0px 4px 10px #58585827;
+    box-shadow: 0px 2px 5px #58585810;
     margin: 10px 15px;
     border-radius: 8px;
     border: .5px solid #97979746;
