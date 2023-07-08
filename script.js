@@ -1,78 +1,18 @@
 const main = document.querySelector('main')
-const header = document.querySelector('header')
-const modal = document.querySelector('.modal')
-const _scroll = document.querySelector('.scroll')
-const containerModal = document.querySelector('.containerModal')
-const container = document.querySelector('.containerItem')
-const select = document.querySelector('.select')
 
-var numDias = 0
-
-localStorage.setItem('@statusmembros', false)
-
-const lista_membros = ["Todos", "Paulinha", "Duda", "Lidiane", "Fernanda", "Edvan", "Edmilson", "Laís", "Kelviane", "Annes", "Warley", "Thiago", , "Wesley", "Thalyson", "André"]
-
-const _membro = localStorage.getItem('@membro')
-const h1 = document.querySelector("h1").innerHTML = _membro
-const nomeMembro = lista_membros.indexOf(_membro)
-const posicao = 0;
-
-const element = lista_membros.splice(nomeMembro, 1)[0];
-lista_membros.splice(posicao, 0, element);
-
-lista_membros.map((membro, index) => {
-	const button = document.createElement('button')
-	button.className = index == posicao ? 'btn_zero' : 'btn_membro'
-	button.innerHTML = membro
-	_scroll.append(button)
-})
-
-var posicaoInicial = document.querySelector('main');
-var i = posicaoInicial.getBoundingClientRect()
-
-window.addEventListener('scroll', () => {
-
-	const posicoes = posicaoInicial.getBoundingClientRect()
-
-	if (posicoes.y < 60) {
-		header.style.boxShadow = "0px 0px 10px #aaaaaa50"
-	} else {
-		header.style.boxShadow = "none"
-	}
-})
-
-
-const arrBtn = document.querySelectorAll('.btn_membro')
-
-arrBtn.forEach((btn) => {
-	btn.addEventListener('click', () => {
-
-		localStorage.setItem('@membro', btn.innerHTML)
-
-		window.location.reload(true);
-		MontaEscala()
-	})
-})
-
-function Selecionar() {
-
-	const _status = JSON.parse(localStorage.getItem('@statusmembros'))
-
-	_scroll.style.height = _status ? "0px" : "70px"
-	localStorage.setItem('@statusmembros', _status ? false : true)
-
-}
+const h1 = document.querySelector("h1").innerHTML = "Escala Louvor"
+localStorage.clear()
 
 async function MontaEscala() {
 
-	await fetch("./json/escala.json")
+	await fetch("./selecao/escala.json")
 		.then((res) => res.json()
 			.then((dados) => {
 				dados.map((item) => {
 
 					const passou = verificaData(item.data)
 
-					if (!passou || !item.status) {
+					if (!passou) {
 						return
 					}
 
@@ -81,7 +21,7 @@ async function MontaEscala() {
 
 					const containerItem = document.createElement('div')
 					containerItem.className = "containerItem"
-					if(item.culto=="EBD"|| item.culto == "Oração/Doutrina"){
+					if (item.culto == "EBD" || item.culto == "Oração/Doutrina") {
 						containerItem.style.marginTop = "40px"
 					}
 
@@ -98,23 +38,13 @@ async function MontaEscala() {
 
 					const info = document.querySelector('.info')
 
-					if (!_membro) {
-						info.innerHTML = "Selecione seu nome no menu acima para ver sua escala"
-					} else {
-						if (numDias == 0) {
-							info.innerHTML = "Aguardando seleção do ir. Thalyson"
-						} else {
-							info.innerHTML = `Você está escalado(a) para ${numDias} culto${numDias > 1 ? "s" : ""} de louvor nos próximos 30 dias`
-						}
 
-						if (_membro == "Todos") {
-							info.innerHTML = "Escala dos proximos 30 dias de todos os musicos"
-							main.append(containerItem)
-						}
-					}
+					info.innerHTML = `Cantem e toquem SEMPRE com ALEGRIA. Nosso Deus merece o nosso melhor`
+					main.append(containerItem)
 				})
 			}))
 }
+
 
 function DataCulto(data, culto) {
 
@@ -137,9 +67,9 @@ function DataCulto(data, culto) {
 		case "Louvor e Pregação":
 			_data.style.color = "#a72222"
 			_culto.style.color = "#a72222"
-			
+
 			break;
-	
+
 		default:
 			break;
 	}
@@ -160,16 +90,16 @@ function VozesInstrumentos(vozes, instrumentos, membro) {
 		if (item == membro) { voz.className = "me" }
 		voz.innerHTML = item
 		containerVI.append(voz)
-		voz.style.backgroundColor="#fffdeb60"
+		voz.style.backgroundColor = "#fffdeb60"
 	})
-	
+
 	instrumentos.map((item) => {
 		let instrumento = document.createElement('span')
 		if (item == membro) { instrumento.className = "me" }
 		instrumento.innerHTML = item
-		
+
 		containerVI.append(instrumento)
-		instrumento.style.backgroundColor="#ebffed50"
+		instrumento.style.backgroundColor = "#ebffed50"
 	})
 
 	container.append(containerVI)
@@ -221,26 +151,26 @@ function Louvores(preludio, louvores) {
 function Obs(obs) {
 
 	const container = document.createElement('div')
-	container.className="container_obs"
+	container.className = "container_obs"
 
-    
-	
-	if(obs.length > 0) {
-		container.style.paddingTop= "15px"
-		container.style.borderTop= ".5px solid #ddd"
+
+
+	if (obs.length > 0) {
+		container.style.paddingTop = "15px"
+		container.style.borderTop = ".5px solid #ddd"
 
 		let item_obs = document.createElement("div")
 		item_obs.className = "item_obs"
-		
+
 		obs.map((item) => {
 			let _obs = document.createElement('span')
 			_obs.className = "obs"
 			_obs.innerHTML = item
-			
+
 			item_obs.append(_obs)
 		})
 		container.prepend(item_obs)
-		
+
 	}
 	return container
 }

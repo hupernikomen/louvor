@@ -197,7 +197,7 @@ main {
     box-shadow: 0px 2px 5px #58585810;
     margin: 10px 15px;
     border-radius: 8px;
-    border: .5px solid #97979746;
+    border: .5px solid #70707046;
 }
 
 
@@ -274,6 +274,7 @@ footer h3 {
 
     font-size: 15px;
     color: #333;
+    animation: animate 1s linear infinite;
 }
 .item_obs {
     display: flex;
@@ -282,3 +283,18 @@ footer h3 {
 .obs::before{
     content: "- ";
 }
+
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    15%{
+      opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+      opacity: .5;
+    }
+  }

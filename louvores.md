@@ -19,8 +19,6 @@ Fernanda-Kelviane-Edmilson-Edvan
 15.	Até que ele venha 
 Fernanda-Kelviane-Edmilson-Edvan
 
-23.	Foi por amor
-Fernanda-Kelviane-Edmilson-Edvan
 
 -----------------------------------------
 
@@ -47,16 +45,10 @@ Fernanda-Duda-Edmilson-Edvan
 4.	Bom Estarmos aqui
 Fernanda-Lais-Edmilson-Edvan
 
-24.	Nome precioso
-Fernanda-Lais-Edmilson-Edvan
-
 56. Reina em mim
 Fernanda-Lais-Edmilson-Edvan
 
 76- Te agradeço (Diante do Trono)
-Fernanda-Lais-Edmilson-Edvan
-
-47.	Venha o Teu Reino 
 Fernanda-Lais-Edmilson-Edvan
 
 Deus forte como Jeová
@@ -82,25 +74,13 @@ Fernanda-Lidiane-Edmilson-Edvan
 70. Canção do Apocalipse
 Fernanda-Lidiane-Edmilson-Edvan
 
-27.	Não há Deus maior
-Fernanda-Lidiane-Edmilson-Edvan
-
 69. Deus forte (Kleber Lucas)
 Fernanda-Lidiane-Edmilson-Edvan
 
 73. Bom é estarmos aqui
 Fernanda-Lidiane-Edmilson-Edvan
 
-55. Quebrantado 
-Fernanda-Lidiane-Edmilson-Edvan
-
 -----------------------------------------
-
-3.	Ao único
-Paulinha-Lais-Edmilson-Edvan
-
-11.	Renova-me
-Paulinha-Lais-Edmilson-Edvan
 
 13.	Vem está é a hora
 Paulinha-Lais-Edmilson-Edvan
@@ -108,19 +88,11 @@ Paulinha-Lais-Edmilson-Edvan
 16.	Autoridade e Poder
 Paulinha-Lais-Edmilson-Edvan
 
-25.	Jesus em tua presença
-Paulinha-Lais-Edmilson-Edvan
-
-36.	Pra sempre
-Paulinha-Lais-Edmilson-Edvan
-
 75- Deus esta aqui
 Paulinha-Lais-Edmilson-Edvan
 
 -----------------------------------------
 
-5.	Em Espírito em verdade
-Paulinha-Lidiane-Edmilson-Edvan
 
 18.	Cria em mim
 Paulinha-Lidiane-Edmilson-Edvan
@@ -168,8 +140,6 @@ Paulinha-Duda-Edvan-Edmilson
 67. A alegria está no coração
 Paulinha-Duda-Edvan-Edmilson
 
-06. Em Espírito em verdade
-Paulinha-Duda-Edvan-Edmilson
 
 61. Deus é o meu refúgio
 Paulinha-Duda-Edvan-Edmilson
@@ -213,6 +183,7 @@ HINOS CC e HCC
 456 - O Estandarte
 509 - Verei meu Redentor
 15 - Exultação
+301. Crer e Observar
 
 
 A INCLUIR
@@ -234,3 +205,33 @@ Maranata
 Poderoso Deus
 Cria em mim
 Filho do Deus vivo
+
+
+
+André
+
+Alto preço 
+Isaias 9
+Poderoso Deus 
+Jesus em tua presença 
+Vem está é a hora
+Poder pra salvar
+Jó 
+Cria em mim
+Sonhos de Deus - preto no branco 
+Meu mestre
+Até que ele venha 
+Ainda que a figueira
+Galhos secos 
+Venha o teu reino 
+ Ao único 
+Precioso 
+Foi por amor
+Quero que valorize 
+Galileu
+Meu alvo
+Toda via me alegrarei 
+Maranata
+Os sonhos de Deus: preto no branco
+Rompendo em fé 
+Vim para adorar-te
