@@ -7,8 +7,6 @@ Fernanda-Kelviane-Edmilson-Edvan
 8.	Isaías 9
 Fernanda-Kelviane-Edmilson-Edvan
 
-9.	Nosso General
-Fernanda-Kelviane-Edmilson-Edvan
 
 14.	Ainda que a figueira - Fernandinho 
 Fernanda-Kelviane-Edmilson-Edvan
@@ -82,8 +80,6 @@ Fernanda-Lidiane-Edmilson-Edvan
 
 -----------------------------------------
 
-13.	Vem está é a hora
-Paulinha-Lais-Edmilson-Edvan
 
 16.	Autoridade e Poder
 Paulinha-Lais-Edmilson-Edvan
@@ -94,8 +90,6 @@ Paulinha-Lais-Edmilson-Edvan
 -----------------------------------------
 
 
-18.	Cria em mim
-Paulinha-Lidiane-Edmilson-Edvan
 
 20.	Digno de Glória
 Paulinha-Lidiane-Edmilson-Edvan
@@ -155,7 +149,6 @@ Lidiane-Duda-Lais
 58. Tu és Soberano
 Lidiane-Lais-Edvan
 
-39.	Quero que valorize 
 43.	Te agradeço (Kleber Lucas)
 
 -----------------------------------------

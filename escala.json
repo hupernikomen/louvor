@@ -1,5 +1,4 @@
 [
-   
     {
         "data": "09/07",
         "culto": "EBD",
@@ -7,14 +6,11 @@
         "louvores": [
             "CC 545 - Vamos à Escola"
         ],
-        "vozes": [
-            "Paulinha"
-        ],
-        "instrumentos": [
+        "musicos": [
+            "Paulinha",
             "Annes"
         ],
-        "obs": [
-        ]
+        "obs": []
     },
     {
         "data": "09/07",
@@ -26,15 +22,13 @@
             "CC - 154 Firme nas Promessas",
             "CC - 46 Jesus me transformou"
         ],
-        "vozes": [
+        "musicos": [
             "Wilson",
             "Edvan",
             "Edmilson",
             "Laís",
             "Duda",
-            "Paulinha"
-        ],
-        "instrumentos": [
+            "Paulinha",
             "Annes",
             "Wesley",
             "Andre",
@@ -47,22 +41,46 @@
         ]
     },
     {
-        "data": "",
-        "culto": "",
+        "data": "14/07",
+        "culto": "Oração / Doutrina",
         "preludio": "",
         "louvores": [
-            "",
-            "",
-            "CC -",
-            "CC -"
+            "Cria em mim",
+            "Quero que valorize"
         ],
-        "vozes": [
+        "musicos": [
+            "Edvan",
+            "Laís",
+            "Kelviane",
+            "Lidiane",
+            "Andre",
+            "Warley",
+            "Wesley"
         ],
-        "instrumentos": [
+        "obs": []
+    },
+    {
+        "data": "16/07",
+        "culto": "Louvor e Pregação",
+        "preludio": "Vem está é a hora",
+        "louvores": [
+            "Cria em mim",
+            "Nosso General",
+            "CC - 301. Crer e Observar",
+            "CC - "
+        ],
+        "musicos": [
+            "Paulinha",
+            "Laís",
+            "Edmilson",
+            "Edvan",
+            "Andre",
+            "Warley",
+            "Wesley",
+            "Annes"
         ],
         "obs": [
-            "Ao unico será cantado por Wilson e Paulinha",
-            "Vamos repetir louvores cantados na sexta"
+            "Paulinha gripada, irmã Fernanda possivelmente a substituirá"
         ]
     }
 ]

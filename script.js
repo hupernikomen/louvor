@@ -3,9 +3,11 @@ const main = document.querySelector('main')
 const h1 = document.querySelector("h1").innerHTML = "Escala Louvor"
 localStorage.clear()
 
+var numDias = 0
+
 async function MontaEscala() {
 
-	await fetch("./selecao/escala.json")
+	await fetch("./escala.json")
 		.then((res) => res.json()
 			.then((dados) => {
 				dados.map((item) => {
@@ -16,8 +18,6 @@ async function MontaEscala() {
 						return
 					}
 
-					const instrumentista = item.instrumentos.find((inst) => inst == _membro)
-					const vocal = item.vozes.find((inst) => inst == _membro)
 
 					const containerItem = document.createElement('div')
 					containerItem.className = "containerItem"
@@ -26,12 +26,12 @@ async function MontaEscala() {
 					}
 
 					containerItem.append(DataCulto(item.data, item.culto))
-					containerItem.append(VozesInstrumentos(item.vozes, item.instrumentos, _membro))
-					containerItem.append(Louvores(item.preludio, item.louvores, _membro))
+					containerItem.append(VozesInstrumentos(item.musicos))
+					containerItem.append(Louvores(item.preludio, item.louvores))
 					containerItem.append(Obs(item.obs))
 
 
-					if (vocal || instrumentista) {
+					if (item.musicos) {
 						numDias++
 						main.append(containerItem)
 					}
@@ -41,6 +41,8 @@ async function MontaEscala() {
 
 					info.innerHTML = `Cantem e toquem SEMPRE com ALEGRIA. Nosso Deus merece o nosso melhor`
 					main.append(containerItem)
+
+					console.log(containerItem, "containerItem")
 				})
 			}))
 }
@@ -78,24 +80,16 @@ function DataCulto(data, culto) {
 
 }
 
-function VozesInstrumentos(vozes, instrumentos, membro) {
+function VozesInstrumentos(musicos) {
 
 	let container = document.createElement('div')
 
 	let containerVI = document.createElement('div')
 	containerVI.className = "vozesInstrumentos"
 
-	vozes.map((item) => {
-		let voz = document.createElement('span')
-		if (item == membro) { voz.className = "me" }
-		voz.innerHTML = item
-		containerVI.append(voz)
-		voz.style.backgroundColor = "#fffdeb60"
-	})
 
-	instrumentos.map((item) => {
+	musicos.map((item) => {
 		let instrumento = document.createElement('span')
-		if (item == membro) { instrumento.className = "me" }
 		instrumento.innerHTML = item
 
 		containerVI.append(instrumento)
@@ -118,7 +112,6 @@ function Louvores(preludio, louvores) {
 		_container_preludio.className = "preludio"
 
 		let _titulo_preludio = document.createElement('span')
-		_titulo_preludio.innerHTML = "Prelúdio:"
 
 		let _preludio = document.createElement('span')
 		_preludio.innerHTML = preludio
@@ -139,7 +132,6 @@ function Louvores(preludio, louvores) {
 	})
 
 	let _titulo_louvor = document.createElement('span')
-	_titulo_louvor.innerHTML = "Louvores:"
 	_container_louvores.append(_titulo_louvor, _louvores)
 
 	container.append(_container_louvores)
