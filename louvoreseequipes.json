@@ -1,0 +1,98 @@
+[
+  {
+    "louvor": "Não há Deus maior",
+    "escala_musical": "F",
+    "equipe": ["Edmilson", "Edvan", "Kelviane", "Duda", "Paulinha", "Annes", "André", "Wesley"],
+    "avaliacao": 4
+  },
+  {
+    "louvor": "Foi por amor",
+    "escala_musical": "Ab",
+    "equipe": ["Edmilson", "Edvan", "Kelviane", "Duda", "Paulinha", "Annes", "André", "Wesley"],
+    "avaliacao": 3
+  },
+  {
+    "louvor": "Em Espírito em verdade",
+    "escala_musical": "F#m",
+    "equipe": ["Edvan", "Edmilson", "Kelviane", "Fernanda", "Paulinha", "Annes", "André", "Wesley"],
+    "avaliacao": 4
+  },
+  {
+    "louvor": "Pra sempre",
+    "escala_musical": "",
+    "equipe": ["Edvan", "Edmilson", "Kelviane", "Fernanda", "Paulinha", "Annes", "André", "Wesley"],
+    "avaliacao": 4
+  },
+  {
+    "louvor": "Renova-me",
+    "escala_musical": "C",
+    "equipe": ["Edvan", "Edmilson", "Kelviane", "Fernanda", "Paulinha", "Annes", "André", "Wesley"],
+    "avaliacao": 4
+  },
+  {
+    "louvor": "Jesus em Tua presença",
+    "escala_musical": "E",
+    "equipe": ["Edvan", "Lidiane", "Kelviane", "Laís"],
+    "avaliacao": 1
+  },
+  {
+    "louvor": "Ao único",
+    "escala_musical": "Am",
+    "equipe": ["Laís", "Lidiane", "Edvan", "Edmilson"],
+    "avaliacao": null
+  },
+  {
+    "louvor": "Quebrantado",
+    "escala_musical": "C",
+    "equipe": ["Edvan", "Lidiane", "Kelviane", "Laís"],
+    "avaliacao": 1
+  },
+  {
+    "louvor": "Quero que valorise",
+    "escala_musical": "",
+    "equipe": [],
+    "avaliacao": null
+  },
+  {
+    "louvor": "Cria em mim",
+    "escala_musical": "",
+    "equipe": ["Edmilson", "Edvan", "Paulinha", "Laís"],
+    "avaliacao": 1
+  },
+  {
+    "louvor": "Jó",
+    "escala_musical": "",
+    "equipe": ["Paulinha", "Laís", "Edmilson", "Edvan"],
+    "avaliacao": null
+  },
+  {
+    "louvor": "Vem esta é a hora",
+    "escala_musical": "",
+    "equipe": ["Edvan", "Lidiane", "Kelviane", "Laís"],
+    "avaliacao": null
+  },
+  {
+    "louvor": "CC 154 - Firme nas promessas",
+    "escala_musical": "F",
+    "equipe": ["Paulinha", "Edvam", "Edmilson", "Lidiane", "Laís"],
+    "avaliacao": 3
+  },
+  {
+    "louvor": "CC 46 - Jesus me transformou",
+    "escala_musical": "G",
+    "equipe": ["Paulinha", "Edvam", "Edmilson", "Lidiane", "Laís"],
+    "avaliacao": 3
+  },
+  {
+    "louvor": "CC 456 - O Estandarte",
+    "escala_musical": "G",
+    "equipe": ["Paulinha"],
+    "avaliacao": ""
+  },
+  {
+    "louvor": "CC 422 - Trabalho Cristão",
+    "escala_musical": "G",
+    "equipe": ["Paulinha"],
+    "avaliacao": ""
+  }
+]

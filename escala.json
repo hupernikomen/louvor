@@ -1,86 +1,60 @@
 [
     {
-        "data": "09/07",
-        "culto": "EBD",
-        "preludio": "",
-        "louvores": [
-            "CC 545 - Vamos à Escola"
-        ],
-        "musicos": [
-            "Paulinha",
-            "Annes"
-        ],
-        "obs": []
-    },
-    {
-        "data": "09/07",
-        "culto": "Louvor e Pregação",
-        "preludio": "Ao Unico",
-        "louvores": [
-            "Jesus em Tua presença",
-            "Quebrantado",
-            "CC - 154 Firme nas Promessas",
-            "CC - 46 Jesus me transformou"
-        ],
-        "musicos": [
-            "Wilson",
-            "Edvan",
-            "Edmilson",
-            "Laís",
-            "Duda",
-            "Paulinha",
-            "Annes",
-            "Wesley",
-            "Andre",
-            "Warley",
-            "Thiago"
-        ],
-        "obs": [
-            "Ao unico será cantado por Wilson e Paulinha",
-            "Vamos repetir louvores cantados na sexta"
-        ]
-    },
-    {
-        "data": "14/07",
+        "data": "4/8",
         "culto": "Oração / Doutrina",
         "preludio": "",
         "louvores": [
-            "Cria em mim",
-            "Quero que valorize"
+            "Meu Barquinho",
+            "Cria em mim"
         ],
         "musicos": [
             "Edvan",
-            "Laís",
             "Kelviane",
+            "Lais",
             "Lidiane",
-            "Andre",
             "Warley",
             "Wesley"
         ],
         "obs": []
     },
     {
-        "data": "16/07",
-        "culto": "Louvor e Pregação",
-        "preludio": "Vem está é a hora",
+        "data": "6/8",
+        "culto": "EBD",
+        "preludio": "",
         "louvores": [
-            "Cria em mim",
-            "Nosso General",
-            "CC - 301. Crer e Observar",
-            "CC - "
         ],
         "musicos": [
             "Paulinha",
-            "Laís",
-            "Edmilson",
-            "Edvan",
-            "Andre",
-            "Warley",
-            "Wesley",
+            "Wilson",
             "Annes"
         ],
         "obs": [
-            "Paulinha gripada, irmã Fernanda possivelmente a substituirá"
+            "Devido o café da manhã não teremos louvor programado, podendo ser escolhido na hora, conforme necessidade, um hino do cantor cristão"
+        ]
+    },
+    {
+        "data": "6/8",
+        "culto": "Louvor e Pregação",
+        "preludio": "Celebrai com jubilo",
+        "louvores": [
+            "Quebra de orgulho",
+            "Até que Ele venha",
+            "CC - 009 Santo",
+            "CC - 410 No serviço do meu Rei"
+        ],
+        "musicos": [
+            "Edmilson",
+            "Edvan",
+            "Lidiane",
+            "Duda",
+            "Paulinha",
+            "Wesley",
+            "Andre",
+            "Annes"
+        ],
+        "obs": [
+            "EQUIPE 01 LOUVANDO",
+            "Paulinha canta apenas os hinos"
         ]
     }
 ]
